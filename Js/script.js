@@ -1,3 +1,13 @@
+var leapYear = function(year){
+  if(year % 4 === 0){
+    return true;
+  }
+  else{
+  return false;
+    }
+};
+
+//jquery user interface
 $(document).ready(function(){
   $("form#leapyear").submit(function(event){
     event.preventDefault();
