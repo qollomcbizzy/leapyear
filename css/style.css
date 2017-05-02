@@ -2,3 +2,6 @@ h2{
   color: blue;
   text-align: center;
 }
+#result{
+  display:none;
+}
